@@ -9,9 +9,7 @@ The first line should have two integers `n`, `m` both separated by a whitespace,
 
 `m` lines follow.
 
-Each of the next `m` lines contains 2 integers/strings a, b separated by whitespace.
-
-2 sample input files are attached, one with nodes represented by numbers, and other with strings.
+Each of the next `m` lines contains 2 integers a, b separated by whitespace.
 
 **NOTE**: The input file can have any filename with any extension.
 
@@ -25,3 +23,5 @@ Each of the next `m` lines contains 2 integers/strings a, b separated by whitesp
 `$ ./createGraph` 
 
 `$ Enter filename whose graph to draw>> ` 
+
+enter the filename on the prompt and the graph is drawn and saved to a jpeg image having filename: `inputFileName_graph.jpg` where inputFileName is same as the filename entered by the user.
