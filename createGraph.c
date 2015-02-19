@@ -52,7 +52,7 @@ int main()
 	sprintf(buff, "dot -Tjpg %s -o %s_graph.jpg\n", filename_out, filename_in);
 
 	system(buff);
-	printf("\t\t\tgraph created succesffulyy\n");
+	printf("\t\t\tgraph created succesffully\n");
 
 
 	return 0;
